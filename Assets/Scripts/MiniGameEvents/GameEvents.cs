@@ -12,23 +12,23 @@ public class GameEvents : MonoBehaviour
   Instance = this;
  }
 
- public event Action onDoorWayTriggerEnter;
+ public event Action <int> onDoorWayTriggerEnter;
 
- public void DoorWayEnter()
+ public void DoorWayEnter(int id)
  {
      if (onDoorWayTriggerEnter != null)
      {
-         onDoorWayTriggerEnter();
+         onDoorWayTriggerEnter(id);
      }
  }
  
- public event Action onDoorWayTriggerExit;
+ public event Action <int> onDoorWayTriggerExit;
 
- public void DoorWayExit()
+ public void DoorWayExit(int id)
  {
      if (onDoorWayTriggerExit != null)
      {
-         onDoorWayTriggerExit();
+         onDoorWayTriggerExit(id);
      }
  }
 }
