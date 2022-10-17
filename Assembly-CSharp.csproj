@@ -45,6 +45,8 @@
      <Compile Include="Assets\Scripts\TestEvents\UnityEventTest.cs" />
      <Compile Include="Assets\Scripts\MiniGameEvents\GameEvents.cs" />
      <Compile Include="Assets\Scripts\MiniGameEvents\DoorController.cs" />
+     <Compile Include="Assets\Scripts\MiniGameEvents\TriggerArea.cs" />
+     <Compile Include="Assets\Scripts\MiniGameEvents\PlayerController.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>

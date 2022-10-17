@@ -21,4 +21,14 @@ public class GameEvents : MonoBehaviour
          onDoorWayTriggerEnter();
      }
  }
+ 
+ public event Action onDoorWayTriggerExit;
+
+ public void DoorWayExit()
+ {
+     if (onDoorWayTriggerExit != null)
+     {
+         onDoorWayTriggerExit();
+     }
+ }
 }

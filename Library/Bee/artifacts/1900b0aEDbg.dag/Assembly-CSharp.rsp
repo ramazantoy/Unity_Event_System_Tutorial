@@ -358,6 +358,8 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/MiniGameEvents/DoorController.cs"
 "Assets/Scripts/MiniGameEvents/GameEvents.cs"
+"Assets/Scripts/MiniGameEvents/PlayerController.cs"
+"Assets/Scripts/MiniGameEvents/TriggerArea.cs"
 "Assets/Scripts/TestEvents/ClickEventTest.cs"
 "Assets/Scripts/TestEvents/UnityEventTest.cs"
 -langversion:9.0
