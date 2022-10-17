@@ -41,8 +41,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ClickEventTest.cs" />
-     <Compile Include="Assets\Scripts\UnityEventTest.cs" />
+     <Compile Include="Assets\Scripts\TestEvents\ClickEventTest.cs" />
+     <Compile Include="Assets\Scripts\TestEvents\UnityEventTest.cs" />
+     <Compile Include="Assets\Scripts\MiniGameEvents\GameEvents.cs" />
+     <Compile Include="Assets\Scripts\MiniGameEvents\DoorController.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -294,6 +296,9 @@
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>C:\Users\pc\Documents\GitHub\Unity_Event_System_Tutorial\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>C:\Users\pc\Documents\GitHub\Unity_Event_System_Tutorial\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -747,6 +752,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{a03674c5-b99f-47a4-eb9c-ba2af0b80611}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
